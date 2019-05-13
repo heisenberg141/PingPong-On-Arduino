@@ -10,14 +10,19 @@ The game board is mapped on to an LCD and each paddle is controlled by two push 
 # Features of the Project:
 
 •	The ball can be set to move with different speeds.
+
 •	Each round starts with a different angle of the ball so that the game isn’t predictable.
+
 •	The game has a fun user interface that is easy to understand.
+
 •	One can become comfortable at using Arduino and LCD after making this project.
 
 # Hardware Description:
 
 •	The hardware majorly consists of an Arduino Uno, LCD and 4 pushbuttons. Other secondary components are wires, breadboard(s), resistors and potentiometer.
+
 •	The hardware components are connected according to the circuit diagram given in CIRCUIT_DIAGRAM folder.
+
 •	Instead of connecting push buttons separately, the buttons were arranged in the form of a 2x2 keypad and the library keypad.h was used to interface the buttons with the LCD.
 
 
