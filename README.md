@@ -1,5 +1,5 @@
 # PingPong-On-Arduino
-This is A simple PingPong game implemented on Arduino and 16 x 2 LCD.I am using pushbuttons for controlling the paddles.
+This is A simple PingPong game implemented on Arduino and 16 x 2 LCD. I am using pushbuttons for controlling the paddles.
 # About the project:
 This project uses Arduino UNO and a 16x2 LCD to implement ping pong game. It is a two player game and its aim is to score 5 points. 
 
@@ -9,29 +9,29 @@ The game board is mapped on to an LCD and each paddle is controlled by two push 
 
 # Features of the Project:
 
-•	The ball can be set to move with different speeds.
-•	Each round starts with a different angle of the ball so that the game isn’t predictable.
-•	The game has a fun user interface that is easy to understand.
-•	One can become comfortable at using Arduino and LCD after making this project.
+1.	The ball can be set to move with different speeds.
+2.	Each round starts with a different angle of the ball so that the game isn’t predictable.
+3.	The game has a fun user interface that is easy to understand.
+4.	One can become comfortable at using Arduino and LCD after making this project.
 
 # Hardware Description:
 
-•	The hardware majorly consists of an Arduino Uno, LCD and 4 pushbuttons. Other secondary components are wires, breadboard(s), resistors and potentiometer.
-•	The hardware components are connected according to the circuit diagram given in CIRCUIT_DIAGRAM folder.
-•	Instead of connecting push buttons separately, the buttons were arranged in the form of a 2x2 keypad and the library keypad.h was used to interface the buttons with the LCD.
+1.	The hardware majorly consists of an Arduino Uno, LCD and 4 pushbuttons. Other secondary components are wires, breadboard(s), resistors and potentiometer.
+2.	The hardware components are connected according to the circuit diagram given in CIRCUIT_DIAGRAM folder.
+3.	Instead of connecting push buttons separately, the buttons were arranged in the form of a 2x2 keypad and the library keypad.h was used to interface the buttons with the LCD.
 
 
 # Code Description:
 
   The code is divided into 3 parts:
 
-  # i) Setup:
+  # 1. Setup:
   This file contains the definition of all the custom characters to be displayed on the LCD. All the global variables necessary for the code to run are also defined in this file.
 
-  # ii) Main Loop:
+  # 2. Main Loop:
   This file consists of the main game loop (void main) where function calls are made. The function calls are necessary for updating the positions of paddles and the ball.
 
-  # iii) Functions:
+  # 3. Functions:
   This file consists of many functions that are required for the game to work smoothly. Each function is included with comments to make the code easy to read and understand. The functions along with their description are as follows:
 
 
